@@ -17,7 +17,7 @@ public class Serwer {
     public static void main(String[] args) {
 
          Serwer s = new Serwer();
-         s.startSerwer();//
+         s.startSerwer();
     }
 
     //metoda starująca serwer
