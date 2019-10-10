@@ -22,6 +22,7 @@ public class Serwer {
 
     //metoda starująca serwer
     public void startSerwer() {
+        klientArrayList = new ArrayList();
 
         try {
 
@@ -73,7 +74,7 @@ public class Serwer {
                 try {
                     //jezeli cos wpadnie a nie jest nullem zostanie odczytane
                     while ((str = bufferedReader.readLine()) != null) {
-                        System.out.println("Odebrano >> ");
+                        System.out.println("Odebrano >> " + str);
 
                         /*iterator przejdzie po liscie klientow i dopóki nie osiagniemy konca tej listy to do kazdego
                         z nich bedziemy rozsylac to co odebralismy*/
