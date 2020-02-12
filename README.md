@@ -5,6 +5,6 @@ Server part of the text chat application.
 Project is created with:
 * JAVA version 8
 
-##Reference
+## Reference
 The client part is located at:
 https://github.com/KrzysztofFyrla/chat-klient
